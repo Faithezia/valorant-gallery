@@ -9,7 +9,7 @@ const AgentList = () => {
   const { selectAgent } = useAgentStore();
 
   return (
-    <div className="max-w-full max-h-[90vh] w-full overflow-x-hidden pt-20">
+    <div className="max-w-full max-h-[90vh] w-full overflow-x-hidden pt-20 h-[90vh]">
       <div className="grid grid-cols-2 gap-5 md:grid-cols-2 px-2">
         {Agents.map((agent, i) => (
           <div

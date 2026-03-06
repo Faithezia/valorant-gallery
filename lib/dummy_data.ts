@@ -246,7 +246,7 @@ export const Agents = [
     id: 17,
     name: "Neon",
     type: "Duelist",
-    imageSrc: "/agents/neon.webp",
+    imageSrc: "/agents/neon.png",
     skills: [
       { name: "Fast Lane", icon: "/agents/neon/Fast_Lane.webp" },
       { name: "Relay Bolt", icon: "/agents/neon/Relay_Bolt.webp" },

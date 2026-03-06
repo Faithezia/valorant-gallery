@@ -11,7 +11,7 @@ const AgentImage = () => {
   const agent = Agents.find((a) => a.id === selectedAgent);
 
   return (
-    <div className="w-full col-span-2 justify-center flex relative">
+    <div className="w-full col-span-2 justify-center flex items-center relative h-[90vh]">
       <AnimatePresence mode="wait">
         {agent && (
           <motion.div
@@ -40,9 +40,9 @@ const AgentImage = () => {
             <Image
               src={agent.imageSrc}
               alt={agent.name}
-              width={500}
-              height={500}
-              className="object-cover"
+              width={400}
+              height={400}
+              className="object-fill h-200 w-full"
             />
           </motion.div>
         )}
