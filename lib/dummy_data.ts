@@ -279,7 +279,7 @@ export const Agents = [
     imageSrc: "/agents/harbor.webp",
     skills: [
       { name: "Cove", icon: "/agents/harbor/Cove.webp" },
-      { name: "Cascade", icon: "/agents/harbor/Cascade.webp" },
+      { name: "Cascade", icon: "/agents/harbor/Storm_Surge.webp" },
       { name: "High Tide", icon: "/agents/harbor/High_Tide.webp" },
       { name: "Reckoning", icon: "/agents/harbor/Reckoning.webp" },
     ],
@@ -338,7 +338,7 @@ export const Agents = [
     type: "Controller",
     imageSrc: "/agents/clove.webp",
     skills: [
-      { name: "Pick-me-up", icon: "/agents/clove/Pick_me_up.webp" },
+      { name: "Pick-me-up", icon: "/agents/clove/Pick-me-up.webp" },
       { name: "Meddle", icon: "/agents/clove/Meddle.webp" },
       { name: "Ruse", icon: "/agents/clove/Ruse.webp" },
       { name: "Not Dead Yet", icon: "/agents/clove/Not_Dead_Yet.webp" },
