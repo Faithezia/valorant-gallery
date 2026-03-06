@@ -218,10 +218,10 @@ export const Agents = [
     type: "Initiator",
     imageSrc: "/agents/kayo.png",
     skills: [
-      { name: "FRAG/ment", icon: "/agents/kayo/FRAGment.webp" },
-      { name: "FLASH/drive", icon: "/agents/kayo/FLASHdrive.webp" },
-      { name: "ZERO/point", icon: "/agents/kayo/ZEROpoint.webp" },
-      { name: "NULL/cmd", icon: "/agents/kayo/NULLcmd.webp" },
+      { name: "FRAG/ment", icon: "/agents/kayo/FRAG-ment.webp" },
+      { name: "FLASH/drive", icon: "/agents/kayo/FLASH-drive.webp" },
+      { name: "ZERO/point", icon: "/agents/kayo/ZERO-point.webp" },
+      { name: "NULL/cmd", icon: "/agents/kayo/NULL-cmd.webp" },
     ],
     description:
       "KAY/O is a robot Initiator who suppresses enemy abilities with suppression technology.",
