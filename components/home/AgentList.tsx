@@ -9,14 +9,13 @@ const AgentList = () => {
   const { selectAgent } = useAgentStore();
 
   return (
-    <div className="max-w-full max-h-[90vh] w-full overflow-x-hidden pt-20 h-[90vh]">
-      <div className="grid grid-cols-2 gap-5 md:grid-cols-2 px-2">
+    <div className="max-w-full max-h-[40vh] w-full overflow-x-hidden pt-20 md:h-[90vh] md:max-h-[90vh]">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 px-2">
         {Agents.map((agent, i) => (
           <div
             key={i}
             className={cn(
-              "relative cursor-pointer rounded-lg border-2 border-gray-700 bg-gray-900 text-white h-64",
-              "hover:border-gray-500 transition-colors bg-[rgba(125,249,255,0.1)]",
+              "relative cursor-pointer rounded-lg border-2 border-gray-700  text-white h-64 hover:border-gray-500 transition-colors bg-[rgba(125,249,255,0.1)] flex md:flex-row",
             )}
             onClick={() => selectAgent(agent.id)}
           >
